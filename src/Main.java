@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * DataStructuresDemo Android Application developed by: Ali Mansour
  * Copyright © 2020 YAT Learning Solutions. All Rights Reserved.
@@ -67,14 +65,14 @@ public class Main {
 //        doubleCube.setWidth(6.5);
 //        doubleCube.setLength(4.2);
 
-        Scanner scanner = new Scanner(System.in);
+//        Scanner scanner = new Scanner(System.in);
 //        System.out.print("Enter first number: ");
 //        int first = scanner.nextInt();
 //        System.out.print("Enter second number: ");
 //        int second = scanner.nextInt();
 //        try {
 //            System.out.println("Connection to database has been opened");
-//            checkNumber(first);
+////            checkNumber(first);
 //            float result = first / second;
 //            System.out.println("Result = " + result);
 //        } catch (ArithmeticException e) {
@@ -85,26 +83,44 @@ public class Main {
 //        } finally {
 //            System.out.println("connection to database has been closed");
 //        }
+//
+//        System.out.print("Enter password: ");
+//        String password = scanner.nextLine();
+//        try {
+//            validatePassword(password);
+//        } catch (Exception e) {
+//           e.printStackTrace();
+//            System.out.println(e.getLocalizedMessage());
+//        }
 
-        System.out.print("Enter password: ");
-        String password = scanner.nextLine();
-        try {
-            validatePassword(password);
-        } catch (Exception e) {
-//            e.printStackTrace();
-            System.out.println(e.getLocalizedMessage());
-        }
+//        try {
+//            System.out.print("Enter amount: ");
+//            Scanner scanner = new Scanner(System.in);
+//            String input = scanner.nextLine();
+//            Double amount = Double.valueOf(input);
+//            System.out.println("Amount: " + amount+"$");
+//        } catch (NumberFormatException e) {
+//            System.out.println("Sorry your entered data is invalid!");
+//        }
+
+//        int x = 10;
+//        Double d = (double)x;
+//        System.out.println(d);
+
+//        Double s = 550.45;
+//        int i = (int)Math.round(s);
+//        System.out.println(i);
     }
 
 //    public static void checkNumber(int number) throws Exception {
 //        if (number % 2 != 0) throw new Exception("This number must be even");
 //    }
 
-    public static void validatePassword(String password) throws Exception {
-        if (password.isEmpty()) throw new Exception("Required field!");
-    }
-
-    public static void setData(int index, String studentName) {
-        students[index] = studentName;
-    }
+//    public static void validatePassword(String password) throws Exception {
+//        if (password.isEmpty()) throw new Exception("Required field!");
+//    }
+//
+//    public static void setData(int index, String studentName) {
+//        students[index] = studentName;
+//    }
 }
